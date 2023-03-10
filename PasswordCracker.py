@@ -13,6 +13,8 @@ except:
     print("File Not Found!!!")
     quit()    
 
+    
+    
 for word in pass_file:
     enc_word = word.encode('utf-8')
     digest = hashlib.md5(enc_word.strip()).hexdigest()
